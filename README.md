@@ -6,21 +6,21 @@ Powered by the Open-Meteo API (no API key required ).
 **Features**
 
 Search weather by city name
-Shows:
+and then it Shows:-
 
-1.Temperature
-2.Wind speed 
-3.Weather condition icons (clear, cloudy, rain, snow, drizzle) 
-4.Humidity
-5.Responsive card-style UI
+1.Temperature    
+2.Wind speed   
+3.Weather condition icons (clear, cloudy, rain, snow, drizzle)    
+4.Humidity  
+5.Responsive card-style UI  
 
-**Tech Stack**
+**Tech Stack**:-
 
 1.ReactJS
 2.Open-Meteo API
 3.CSS
 
-**How It Works**
+**How It Works**:-
 
 User enters a city → fetch latitude/longitude via Open-Meteo Geocoding API.
 Use coordinates to fetch current weather.
