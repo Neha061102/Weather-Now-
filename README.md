@@ -1,12 +1,46 @@
-# React + Vite
+**React Weather App (Open-Meteo API)**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather app built with ReactJS that lets users search for any city and view its current weather.
+Powered by the Open-Meteo API (no API key required 🎉).
 
-Currently, two official plugins are available:
+**Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Search weather by city name
+Shows:
 
-## Expanding the ESLint configuration
+1.Temperature
+2.Wind speed 
+3.Weather condition icons (clear, cloudy, rain, snow, drizzle) 
+4.Humidity
+5.Responsive card-style UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Tech Stack**
+
+1.ReactJS
+2.Open-Meteo API
+3.CSS
+
+**How It Works**
+
+User enters a city → fetch latitude/longitude via Open-Meteo Geocoding API.
+Use coordinates to fetch current weather.
+Display temperature, humidity, windspeed, and weather condition (via weathercode → mapped to icons).
+
+**Run the App**
+1.Local
+npm install
+npm start  # or npm run dev (if using Vite)
+
+2.Online (CodeSandbox)
+
+*Import project into CodeSandbox
+*Copy files → app runs instantly
+*Share with public link
+
+**Future Scope**
+
+1.Add pressure, 7-day forecast
+2.Dark/Light theme toggle
+3.Deploy on Netlify/Vercel
+
+**Built with React + Open-Meteo API for learning and demonstration.**
