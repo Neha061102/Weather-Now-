@@ -1,7 +1,7 @@
 **React Weather App (Open-Meteo API)**
 
 A simple weather app built with ReactJS that lets users search for any city and view its current weather.
-Powered by the Open-Meteo API (no API key required 🎉).
+Powered by the Open-Meteo API (no API key required ).
 
 **Features**
 
